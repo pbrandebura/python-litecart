@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21d0942c-5c0a-4b7f-a5ee-c4816112f6f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixture/admin_panel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixture/store_front.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_admin_panel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_storefront_litecart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_demo.py" beforeDir="false" />
-    </list>
+    <list default="true" id="21d0942c-5c0a-4b7f-a5ee-c4816112f6f0" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,95 +55,160 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_storefront_litecart.test_verify_number_of_sale_label">
-    <configuration name="pytest for test_admin_panel.test_browse_through_admin_menu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebdriver" />
+  <component name="RunManager" selected="Python tests.pytest for tests.test_storefront_litecart.test_verify_number_of_sale_label">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="python-Litecart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="python-Litecart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="python-Litecart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="python-Litecart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_admin_panel.test_browse_through_admin_menu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-Litecart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-Litecart/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_admin_panel.test_browse_through_admin_menu&quot;" />
+      <option name="_new_target" value="&quot;tests.test_admin_panel.test_browse_through_admin_menu&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_admin_panel.test_countries_in_alfabetical_order" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebdriver" />
+    <configuration name="pytest for tests.test_admin_panel.test_countries_in_alfabetical_order" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-Litecart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-Litecart/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_admin_panel.test_countries_in_alfabetical_order&quot;" />
+      <option name="_new_target" value="&quot;tests.test_admin_panel.test_countries_in_alfabetical_order&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_admin_panel.test_time_zones_in_alfabetical_order" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebdriver" />
+    <configuration name="pytest for tests.test_admin_panel.test_time_zones_in_alfabetical_order" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-Litecart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-Litecart/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_admin_panel.test_time_zones_in_alfabetical_order&quot;" />
+      <option name="_new_target" value="&quot;tests.test_admin_panel.test_time_zones_in_alfabetical_order&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_storefront_litecart.test_verify_number_of_sale_label" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebdriver" />
+    <configuration name="pytest for tests.test_storefront_litecart.test_verify_number_of_sale_label" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-Litecart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-Litecart/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_storefront_litecart.test_verify_number_of_sale_label&quot;" />
+      <option name="_new_target" value="&quot;tests.test_storefront_litecart.test_verify_number_of_sale_label&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_admin_panel.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebdriver" />
+      <module name="python-Litecart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-Litecart/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_admin_panel.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../python-Litecart/tests/test_admin_panel.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_admin_panel.py" />
-      <item itemvalue="Python tests.pytest for test_admin_panel.test_browse_through_admin_menu" />
-      <item itemvalue="Python tests.pytest for test_admin_panel.test_countries_in_alfabetical_order" />
-      <item itemvalue="Python tests.pytest for test_admin_panel.test_time_zones_in_alfabetical_order" />
-      <item itemvalue="Python tests.pytest for test_storefront_litecart.test_verify_number_of_sale_label" />
+      <item itemvalue="Python tests.pytest for tests.test_admin_panel.test_browse_through_admin_menu" />
+      <item itemvalue="Python tests.pytest for tests.test_admin_panel.test_countries_in_alfabetical_order" />
+      <item itemvalue="Python tests.pytest for tests.test_admin_panel.test_time_zones_in_alfabetical_order" />
+      <item itemvalue="Python tests.pytest for tests.test_storefront_litecart.test_verify_number_of_sale_label" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_storefront_litecart.test_verify_number_of_sale_label" />
-        <item itemvalue="Python tests.pytest for test_admin_panel.test_time_zones_in_alfabetical_order" />
-        <item itemvalue="Python tests.pytest for test_admin_panel.test_browse_through_admin_menu" />
-        <item itemvalue="Python tests.pytest for test_admin_panel.test_countries_in_alfabetical_order" />
+        <item itemvalue="Python tests.pytest for tests.test_storefront_litecart.test_verify_number_of_sale_label" />
+        <item itemvalue="Python tests.pytest for tests.test_admin_panel.test_time_zones_in_alfabetical_order" />
+        <item itemvalue="Python tests.pytest for tests.test_admin_panel.test_browse_through_admin_menu" />
+        <item itemvalue="Python tests.pytest for tests.test_admin_panel.test_countries_in_alfabetical_order" />
         <item itemvalue="Python tests.pytest in test_admin_panel.py" />
       </list>
     </recent_temporary>
