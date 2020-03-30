@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21d0942c-5c0a-4b7f-a5ee-c4816112f6f0" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="21d0942c-5c0a-4b7f-a5ee-c4816112f6f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumWebdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumWebdriver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/initalTest.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,17 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/InitialTest.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1YzHaeFLFoEEHSf2jATRgjrKelS" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -53,57 +48,40 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SeleniumWebdriver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumWebdriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.py.test for initalTest.test">
-    <configuration name="py.test for InitialTest.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_demo.test_verify_number_of_sale_label">
+    <configuration name="initalTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SeleniumWebdriver" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;InitialTest.test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initalTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="py.test for initalTest.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for initalTest.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebdriver" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,8 +94,9 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;initalTest.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="py.test in InitialTest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_demo.test_verify_number_of_sale_label" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebdriver" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,19 +107,54 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/InitialTest.py&quot;" />
+      <option name="_new_target" value="&quot;test_demo.test_verify_number_of_sale_label&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in /Users/pbrandebura/PycharmProjects/SeleniumWebdriver/test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebdriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebdriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_demo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test in InitialTest.py" />
-      <item itemvalue="Python tests.py.test for InitialTest.test" />
-      <item itemvalue="Python tests.py.test for initalTest.test" />
+      <item itemvalue="Python.initalTest" />
+      <item itemvalue="Python tests.pytest in test_demo.py" />
+      <item itemvalue="Python tests.pytest for initalTest.test" />
+      <item itemvalue="Python tests.pytest in /Users/pbrandebura/PycharmProjects/SeleniumWebdriver/test.py" />
+      <item itemvalue="Python tests.pytest for test_demo.test_verify_number_of_sale_label" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test for initalTest.test" />
-        <item itemvalue="Python tests.py.test for InitialTest.test" />
-        <item itemvalue="Python tests.py.test in InitialTest.py" />
+        <item itemvalue="Python tests.pytest for test_demo.test_verify_number_of_sale_label" />
+        <item itemvalue="Python tests.pytest in test_demo.py" />
+        <item itemvalue="Python.initalTest" />
+        <item itemvalue="Python tests.pytest for initalTest.test" />
+        <item itemvalue="Python tests.pytest in /Users/pbrandebura/PycharmProjects/SeleniumWebdriver/test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -157,46 +171,77 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="py_test_in_InitialTest_py - 2018.05.30 at 20h 35m 29s.xml">
-      <configuration name="py.test in InitialTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_InitialTest_py - 2018.05.30 at 20h 36m 39s.xml">
-      <configuration name="py.test in InitialTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_InitialTest_test - 2018.05.30 at 20h 37m 08s.xml">
-      <configuration name="py.test for InitialTest.test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_InitialTest_test - 2018.05.30 at 20h 37m 36s.xml">
-      <configuration name="py.test for InitialTest.test" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InitialTest.py" />
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585401900047">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585401900047" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584035182445" />
+    <state x="567" y="347" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1585477281473">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="567" y="347" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585477281473" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom" timestamp="1585569806850">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-157.1920.1057@0.0.1440.900" timestamp="1585402115500" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585569806850" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584009043763" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585395033661" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.812/1440.-157.1920.1057@0.23.1440.812" timestamp="1585478351200" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1585417589999" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1583956031136" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1584012870390" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center" timestamp="1585569806848">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.0.1440.900/1440.-157.1920.1057@0.0.1440.900" timestamp="1585402115499" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585569806848" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584009043760" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585395033659" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.812/1440.-157.1920.1057@0.23.1440.812" timestamp="1585478351197" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1585417589997" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1583956031135" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1584012870386" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left" timestamp="1585569806847">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.0.1440.900/1440.-157.1920.1057@0.0.1440.900" timestamp="1585402115498" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585569806847" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584009043758" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585395033657" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.812/1440.-157.1920.1057@0.23.1440.812" timestamp="1585478351196" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1585417589996" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1583956031134" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1584012870385" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right" timestamp="1585569806849">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.0.1440.900/1440.-157.1920.1057@0.0.1440.900" timestamp="1585402115500" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585569806849" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584009043761" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585395033660" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.812/1440.-157.1920.1057@0.23.1440.812" timestamp="1585478351199" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1585417589998" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1583956031135" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1584012870389" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1584005446475">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584005446475" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1585402049065">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.-157.1920.1057@0.0.1440.900" timestamp="1585402049065" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584035196732" />
+    <state x="525" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585417404286">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1584006672995" />
+    <state x="525" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.814@0.23.1440.814" timestamp="1585417404286" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585569504232">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585569504232" />
   </component>
 </project>
