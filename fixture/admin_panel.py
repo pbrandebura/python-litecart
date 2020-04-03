@@ -2,6 +2,29 @@ class AdminPanel:
     def __init__(self, app):
         self.app = app
 
+    def switch_off_catpcha(self):
+        driver = self.app.driver
+        self.login_to_admin_panel("admin", "admin")
+        self.navigate_to_security_tab(driver)
+        self.set_captcha_to_false(driver)
+
+    def set_captcha_to_false(self, driver):
+        # open edit view
+        driver.find_element_by_xpath('//*[@id="content"]/form/table/tbody/tr[7]/td[3]/a/i').click()
+        # click False radiobutton
+        driver.find_element_by_xpath('//*[@value="0"]').click()
+        # save changes
+        driver.find_element_by_xpath('//*[@name="save"]').click()
+        success_info = driver.find_element_by_xpath('//*[@id="notices"]/div/i').text
+        print(success_info)
+        expected_message = " Changes saved"
+        assert expected_message, success_info
+
+    def navigate_to_security_tab(self, driver):
+        # driver.find_element_by_xpath('//ul/li[12]/a').click()
+        driver.get('http://localhost/litecart/admin/?app=settings&doc=store_info')
+        driver.find_element_by_xpath("//*[@id='doc-security']").click()
+
     def check_if_timezones_in_alfabetical_order(self, country_code):
         driver = self.app.driver
         list_of_states = []

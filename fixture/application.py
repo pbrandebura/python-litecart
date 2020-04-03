@@ -1,7 +1,7 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
 from fixture.store_front import StoreFront
 from fixture.admin_panel import AdminPanel
-
+from fixture.user_reg import UserReg
 
 class Application:
 
@@ -10,6 +10,7 @@ class Application:
         self.driver.implicitly_wait(60)
         self.store_front = StoreFront(self)
         self.admin_panel = AdminPanel(self)
+        self.user_reg = UserReg(self)
 
     def destroy(self):
         self.driver.quit()
