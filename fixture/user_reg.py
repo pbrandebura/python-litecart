@@ -10,7 +10,7 @@ class UserReg:
         driver = self.app.driver
         driver.find_element_by_xpath('//*[@id="box-account-login"]/div/form/table/tbody/tr[5]/td/a').click()
         self.fill_contact_form(user)
-        self.select_country_dropdown("Albania")
+        self.select_country_dropdown(user)
         driver.find_element_by_name("create_account").click()
         user_created_info = driver.find_element_by_css_selector(".notice ").text
         expected_info = " Your customer account has been created."
@@ -44,9 +44,9 @@ class UserReg:
             driver.find_element_by_name(field_name).clear()
             driver.find_element_by_name(field_name).send_keys(text)
 
-    def select_country_dropdown(self, country_code):
+    def select_country_dropdown(self, user):
         driver = self.app.driver
         s1 = Select(driver.find_element_by_xpath("//*[@name='country_code']"))
 
         for opt in s1.options:
-            s1.select_by_visible_text(country_code)
+            s1.select_by_visible_text(user.country)

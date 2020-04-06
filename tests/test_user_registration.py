@@ -18,7 +18,7 @@ testdata = User(firstname=random_string(3, 5, "name"), lastname=random_string(3,
                 address1=random_string(3, 6, "addr"),
                 city=random_string(2, 3, ":city"), email=random_string(2, 7, "@test.com"),
                 password=random_string(3, 6, "!"),
-                phone=random_numeric_string(9, 10), postcode=(random_numeric_string(5, 6)))
+                phone=random_numeric_string(9, 10), postcode=(random_numeric_string(5, 6)), country="Albania")
 
 
 @pytest.mark.parametrize("user", [testdata])

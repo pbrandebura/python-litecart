@@ -5,10 +5,11 @@ class AdminPanel:
     def switch_off_catpcha(self):
         driver = self.app.driver
         self.login_to_admin_panel("admin", "admin")
-        self.navigate_to_security_tab(driver)
-        self.set_captcha_to_false(driver)
+        self.navigate_to_security_tab()
+        self.set_captcha_to_false()
 
-    def set_captcha_to_false(self, driver):
+    def set_captcha_to_false(self):
+        driver = self.app.driver
         # open edit view
         driver.find_element_by_xpath('//*[@id="content"]/form/table/tbody/tr[7]/td[3]/a/i').click()
         # click False radiobutton
@@ -20,7 +21,8 @@ class AdminPanel:
         expected_message = " Changes saved"
         assert expected_message, success_info
 
-    def navigate_to_security_tab(self, driver):
+    def navigate_to_security_tab(self):
+        driver = self.app.driver
         # driver.find_element_by_xpath('//ul/li[12]/a').click()
         driver.get('http://localhost/litecart/admin/?app=settings&doc=store_info')
         driver.find_element_by_xpath("//*[@id='doc-security']").click()
@@ -86,3 +88,8 @@ class AdminPanel:
         driver.find_element_by_xpath("//*[@name='password']").send_keys(password)
         driver.find_element_by_xpath("//*[@name='login']").click()
         assert driver.find_element_by_css_selector('#notices > div.notice.success')
+
+    def navigate_to_catalog_tab(self):
+        driver = self.app.driver
+        driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog")
+        # driver.find_element_by_xpath("/html/body/div/div/div/table/tbody/tr/td[1]/div[3]/ul/li[2]/a").click()

@@ -50,3 +50,4 @@ JavaScript error: resource:///modules/SearchTelemetry.jsm, line 658: TypeError: 
 JavaScript error: resource:///modules/SearchTelemetry.jsm, line 658: TypeError: channel.loadInfo is null
 JavaScript error: resource:///modules/SearchTelemetry.jsm, line 658: TypeError: channel.loadInfo is null
 1585904424053	Marionette	INFO	Stopped listening on port 65252
+1585928078505	Marionette	INFO	Stopped listening on port 64995
