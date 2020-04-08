@@ -25,7 +25,7 @@ testdata = User(firstname=random_string(3, 5, "name"), lastname=random_string(3,
 def test_user_registration(app, user):
     app.admin_panel.switch_off_catpcha()
     app.store_front.navigate_to_litecart_shop()
-    app.user_reg.create_account(user)
-    app.user_reg.logout()
-    app.user_reg.user_login(user)
-    app.user_reg.logout()
+    app.user.create_account(user)
+    app.user.logout()
+    app.user.user(user)
+    app.user.logout()

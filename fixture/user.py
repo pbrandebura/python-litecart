@@ -2,7 +2,7 @@ from selenium.webdriver.support.select import Select
 from time import sleep
 
 
-class UserReg:
+class User:
     def __init__(self, app):
         self.app = app
 
@@ -20,7 +20,7 @@ class UserReg:
         driver = self.app.driver
         driver.find_element_by_xpath('//*[@id="box-account"]/div/ul/li[4]/a').click()
 
-    def user_login(self, user):
+    def user(self, user):
         driver = self.app.driver
         driver.find_element_by_name('email').send_keys(user.email)
         driver.find_element_by_name('password').send_keys(user.password)
