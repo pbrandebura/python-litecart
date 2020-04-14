@@ -1,4 +1,3 @@
-
 def test_add_and_remove_items_from_basket(app):
     app.store_front.navigate_to_litecart_shop()
     app.basket.add_product_from_most_popular()

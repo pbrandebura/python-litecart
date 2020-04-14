@@ -26,7 +26,7 @@ class Basket:
 
     def add_product_to_basket(self, product_list, size):
         driver = self.app.driver
-        product = driver.find_element_by_xpath('//*[@id="' + product_list + '"]/div/ul/li[1]').click()
+        driver.find_element_by_xpath('//*[@id="' + product_list + '"]/div/ul/li[1]').click()
         basket_qty_before_adding = driver.find_element_by_css_selector('span.quantity').text
         self.choose_item_size(size)
         add_to_cart_btn = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.NAME, "add_cart_product")))

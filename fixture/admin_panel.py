@@ -1,3 +1,7 @@
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
 class AdminPanel:
     def __init__(self, app):
         self.app = app
@@ -93,3 +97,25 @@ class AdminPanel:
         driver = self.app.driver
         driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog")
         # driver.find_element_by_xpath("/html/body/div/div/div/table/tbody/tr/td[1]/div[3]/ul/li[2]/a").click()
+
+    def open_add_new_country(self):
+        driver = self.app.driver
+        driver.find_element_by_css_selector('a.button').click()
+
+    def click_on_every_external_url(self):
+        driver = self.app.driver
+        main_window = driver.current_window_handle
+        old_windows = driver.window_handles
+        urls = driver.find_elements_by_css_selector('i.fa-external-link')
+        print("length: " + str(len(urls)))
+        for url in range(0, len(urls)):
+            urls[url].click()
+            WebDriverWait(driver, 30).until(lambda driver: len(old_windows) != len(driver.window_handles))
+            for handle in driver.window_handles:
+                if handle != old_windows:
+                    driver.switch_to.window(handle)
+            driver.close()
+            driver.switch_to.window(main_window)
+            expected_h1_text = "Add New Country"
+            WebDriverWait(driver, 10).until(
+                EC.text_to_be_present_in_element((By.CSS_SELECTOR, '#content > h1'), expected_h1_text))
