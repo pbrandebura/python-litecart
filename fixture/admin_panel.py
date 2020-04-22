@@ -27,8 +27,8 @@ class AdminPanel:
 
     def navigate_to_security_tab(self):
         driver = self.app.driver
-        # driver.find_element_by_xpath('//ul/li[12]/a').click()
-        driver.get('http://localhost/litecart/admin/?app=settings&doc=store_info')
+        menu_links = driver.find_elements_by_css_selector('#app-')
+        (menu_links[11]).click()
         driver.find_element_by_xpath("//*[@id='doc-security']").click()
 
     def check_if_timezones_in_alfabetical_order(self, country_code):
@@ -71,7 +71,8 @@ class AdminPanel:
 
     def navigate_to_countries_tab(self):
         driver = self.app.driver
-        driver.get('http://localhost/litecart/admin/?app=countries&doc=countries')
+        menu_links = driver.find_elements_by_css_selector('#app-')
+        (menu_links[2]).click()
 
     def click_on_every_menu_tab(self):
         driver = self.app.driver
@@ -95,8 +96,9 @@ class AdminPanel:
 
     def navigate_to_catalog_tab(self):
         driver = self.app.driver
-        driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog")
-        # driver.find_element_by_xpath("/html/body/div/div/div/table/tbody/tr/td[1]/div[3]/ul/li[2]/a").click()
+        menu_links = driver.find_elements_by_css_selector('#app-')
+        (menu_links[1]).click()
+        driver.find_element_by_css_selector("#doc-catalog").click()
 
     def open_add_new_country(self):
         driver = self.app.driver
@@ -107,7 +109,6 @@ class AdminPanel:
         main_window = driver.current_window_handle
         old_windows = driver.window_handles
         urls = driver.find_elements_by_css_selector('i.fa-external-link')
-        print("length: " + str(len(urls)))
         for url in range(0, len(urls)):
             urls[url].click()
             WebDriverWait(driver, 30).until(lambda driver: len(old_windows) != len(driver.window_handles))

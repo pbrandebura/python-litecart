@@ -4,7 +4,7 @@ from model.product import Product
 class StoreFront:
 
     def __init__(self, app):
-        self.app = app
+        self.app = app 
 
     def navigate_to_litecart_shop(self):
         driver = self.app.driver

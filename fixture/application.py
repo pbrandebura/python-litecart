@@ -9,6 +9,7 @@ class Application:
 
     def __init__(self):
         self.driver = WebDriver()
+        #self.driver = WebDriver.Remote("http://localhost:4444/wd/hub", desired_capabilities={"browserName": "chrome"})
         self.driver.implicitly_wait(30)
         self.store_front = StoreFront(self)
         self.admin_panel = AdminPanel(self)
